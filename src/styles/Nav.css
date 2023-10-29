@@ -1,0 +1,18 @@
+#navDesk{
+    margin: 0 2rem;
+    position: relative;
+ }
+ #navDesk::after{
+     content: "";
+     position: absolute;
+     background: rgba(86, 86, 250, 0.836);
+     width: 0;
+     height: 5px;
+     left: 0;
+     top:25px
+     
+ }
+ #navDesk:hover::after{
+    width: 100%;
+    transition: 1s;
+ }
